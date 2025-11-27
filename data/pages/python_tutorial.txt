@@ -1,0 +1,13 @@
+Python Tutorial: Getting Started
+
+Python is a beginner-friendly language. To start coding, install Python from python.org.
+You can write Python code using an editor like VS Code or PyCharm.
+
+Basic concepts include:
+- Variables
+- Data types
+- Loops
+- Functions
+- Modules
+
+Python also supports object-oriented programming and file handling.

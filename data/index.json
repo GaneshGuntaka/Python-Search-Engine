@@ -1,0 +1,35 @@
+{
+  "python": {
+    "page1.txt": 1,
+    "python_tutorial.txt": 1,
+    "blog_article1.txt": 1
+  },
+  "programming": {
+    "page1.txt": 1,
+    "python_tutorial.txt": 1,
+    "website_homepage.txt": 1
+  },
+  "language": {
+    "page1.txt": 1,
+    "python_tutorial.txt": 1
+  },
+  "web": {
+    "page2.html": 1,
+    "website_homepage.txt": 1
+  },
+  "crawler": {
+    "page2.html": 1,
+    "blog_article1.txt": 1
+  },
+  "ai": {
+    "ai_history.html": 1,
+    "website_homepage.txt": 1
+  },
+  "search": {
+    "blog_article1.txt": 1,
+    "anything_you_crawled.txt": 1
+  },
+  "engine": {
+    "blog_article1.txt": 1
+  }
+}

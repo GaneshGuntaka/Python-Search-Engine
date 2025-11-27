@@ -1,0 +1,8 @@
+How to Build a Search Engine in Python
+
+A search engine consists of three major components:
+1. A crawler to collect data.
+2. An indexer to build an inverted index.
+3. A ranking engine to respond to user queries.
+
+Python libraries such as BeautifulSoup, NLTK, and math utilities can help build these components easily.

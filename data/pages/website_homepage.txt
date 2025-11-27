@@ -1,0 +1,10 @@
+Welcome to TechWorld Online
+
+TechWorld provides tutorials on programming, web development, AI, and cloud computing.
+Our mission is to simplify technology for students and developers across the globe.
+
+Popular topics include:
+- Python programming
+- React and front-end development
+- AI and machine learning
+- DevOps and cloud platforms

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search - Python Search Engine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px 100px;
+            background: #f5f7fa;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .search-box {
+            margin-top: 15px;
+        }
+
+        .search-box input {
+            width: 450px;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #aaa;
+        }
+
+        .search-box button {
+            padding: 12px 20px;
+            margin-left: 5px;
+            border: none;
+            border-radius: 6px;
+            background: #0077ff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .search-box button:hover {
+            background: #005fd4;
+        }
+
+        .result {
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 18px;
+            box-shadow: 0px 0px 6px #ddd;
+        }
+
+        .result-title {
+            font-size: 18px;
+            color: #0645AD;
+            text-decoration: none;
+        }
+
+        .result-title:hover {
+            text-decoration: underline;
+        }
+
+        .score {
+            font-size: 12px;
+            color: gray;
+            margin-top: 5px;
+        }
+
+        .snippet {
+            margin-top: 10px;
+            color: #333;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Python Search Engine</h1>
+
+    <form action="/search">
+        <div class="search-box">
+            <input type="text" name="q" value="{{ query }}" placeholder="Search..." autofocus>
+            <button type="submit">Search</button>
+        </div>
+    </form>
+</div>
+
+{% if results %}
+    <h3>Results for "{{ query }}":</h3>
+{% endif %}
+
+{% for r in results %}
+<div class="result">
+    <a class="result-title" href="#">{{ r.doc_id }}</a>
+    <div class="score">Score: {{ r.score }}</div>
+    <div class="snippet">{{ r.snippet|safe }}</div>
+</div>
+{% endfor %}
+
+</body>
+</html>

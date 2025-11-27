@@ -1,0 +1,4 @@
+This file represents a sample crawled webpage. You can replace its content with real page data.
+
+Search engines analyze large collections of text files and compute term frequencies.
+These frequencies help determine which documents are most relevant to a user's query.

@@ -17,6 +17,7 @@ A mini search engine built using Python, Flask, TF-IDF, and inverted indexing.
 
 - Google-like search interface
 
+```
 📁 **Project Structure**
 PythonSearchEngine/
 │
@@ -54,7 +55,7 @@ PythonSearchEngine/
 ├── main.py
 ├── README.md
 └── requirements.txt
-
+```
 ▶ **How to Run**
 
 **Install dependencies:**
